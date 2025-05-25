@@ -16,9 +16,9 @@ __Attention__: you need ``pdflatex`` and
 ## Acknowledgements
 
 This template is based on the template of [Martin
-Hölzer](https://github.com/hoelzer/dfg) and based on the RTF [DFG form 53_01_en
-03/22](http://www.dfg.de/formulare/53_01_elan/53_01_en_elan.rtf), __last
-accessed in May 2022__.
+Hölzer](https://github.com/hoelzer/dfg) (**last accessed in December 2022**) and
+mimicks the RTF template and PDF guidelines provided by
+[DFG with a focus on a "Sachbeihilfe" grant](https://www.dfg.de/foerderung/programme/einzelfoerderung/sachbeihilfe/formulare_merkblaetter/index.jsp).
 
 ## Compilation
 
@@ -45,18 +45,7 @@ Most of customization (citation style, etc.) can be done by changes in the
 
 ## Bibliography
 
-To add references to different parts of the proposal, you can define categories:
-
-```latex
-\DeclareBibliographyCategory{reviewed}
-\addtocategory{reviewed}{Hoelzer:16}
-```
-
-that can be later used in the sections:
-
-```latex
-\printbibliography[category=reviewed, heading=none]
-```
+Since DFG template version 09/22, all references are listed in section 3.
 
 ### Bib Style
 
